@@ -1,0 +1,36 @@
+body{
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	height: 100vh;
+	
+	/*
+		Básicamente permite alinear el contenido de forma horizontal y puede recibir 4 valores (start, end, center, stretch), por defecto viene con el valor strecth.
+	 */
+	justify-items: center;
+
+	/*
+		Básicamente permite alinear el contenido de forma vertical y puede recibir 4 valores (start, end, center, stretch), por defecto viene con el valor strecth.
+	 */
+	align-items: center; 
+}
+
+.item{
+	background: teal;
+	border: 1px solid tomato;
+	color: #fff;
+	padding: .5em;
+	text-align: center;
+}
+
+.item:nth-of-type(5){
+	justify-self: stretch;
+	align-self: center;
+}

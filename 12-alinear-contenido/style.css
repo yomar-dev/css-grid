@@ -1,0 +1,28 @@
+body{
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(3, 200px);
+	grid-template-rows: repeat(4, 100px);
+	height: 100vh;
+
+	/*
+		Tanto la propiedad 'justify-content' como 'align-content' permite alinear el contenido de filas y columnas.
+		Pueden recibir los siguientes valores: start, end, center, stretch, space-around, space-between y space-evenly.
+	 */
+	justify-content: space-evenly;
+	align-content: space-evenly;
+}
+
+.item{
+	background: teal;
+	border: 1px solid tomato;
+	color: #fff;
+	padding: .5em;
+	text-align: center;
+}

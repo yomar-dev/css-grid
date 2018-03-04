@@ -47,6 +47,12 @@
 > **grid-auto-flow:** Permite cambiar el flujo automatico del grid, por defecto su valor es `row` pero podemos cambiarlo a `column`. <br>
 > **grid-auto-columns:** Permite un valor por defecto a las columnas que no han sido asignadas. *Ejemplo:* `grid-auto-columns: 200px 200px 200px 200px;`<br>
 > **grid-auto-rows:** Permite un valor por defecto a las filas que no han sido asignadas. *Ejemplo:* `grid-auto-rows: 50px 100px;`<br>
+> **justify-items:** Permite alinear el contenido de forma horizontal y puede recibir 4 valores (start, end, center, stretch), por defecto viene con el valor `strecth`.<br>
+> **align-items:** Permite alinear el contenido de forma vertical y puede recibir 4 valores (start, end, center, stretch), por defecto viene con el valor `strecth`.<br>
+> **justify-self:** Permite manipular el elemento seleccionado en sentido horizontal y puede recibir 4 valores (start, end, center, stretch).<br>
+> **align-self:** Permite manipular el elemento seleccionado en sentido vertical y puede recibir 4 valores (start, end, center, stretch).<br>
+> **justify-content:** Permite alinear el contenido de forma horizontal y puede recibir 7 valores (start, end, center, stretch, space-around, space-between y space-evenly).<br>
+> **align-content:** Permite alinear el contenido de forma vertical y puede recibir 7 valores (start, end, center, stretch, space-around, space-between y space-evenly).<br>
 
 ### Links de Interes ###
 
@@ -61,3 +67,5 @@
 [Explicit vs Implicit Grid](https://www.quackit.com/css/grid/tutorial/explicit_vs_implicit_grid.cfm)
 <br>
 [CSS Grid Examples](https://www.quackit.com/css/grid/examples/)
+<br>
+[Grid Garden](http://cssgridgarden.com/#es)
