@@ -18,11 +18,16 @@
 
 ## Propiedades ##
 
-> **grid-template-columns:** Define el número de columnas en un grid layout así como el tamaño de cada columna. Con el siguiente ejemplo creamos 3 columnas de 200px de ancho cada una, cabe destacar que podemos asignar cualquier tamaño a cualquiera de las columnas y utilizar cualquier unidad de medida.
+> **grid-template-columns:** Define el número de columnas en un grid layout así como el tamaño de cada columna. 
+<br>Con el siguiente ejemplo creamos 3 columnas de 200px de ancho cada una, cabe destacar que podemos asignar cualquier tamaño a cualquiera de las columnas y utilizar cualquier unidad de medida.
 
 > **Ejemplo:** *grid-template-columns: 200px 200px 200px;* 
 
 
+> **grid-template-rows:** Define el nombre de las líneas y las funciones de tamaño de línea de grid rows.
+<br>Con el siguiente ejemplo indicamos el tamaño de cada una de nuestras filas, en este caso solo definimos la altura para la primera (100px) y segunda (200px) fila.
+
+> **Ejemplo:** *grid-template-rows: 100px 200px;*
 
 ### Links de Interes ###
 
