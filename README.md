@@ -24,8 +24,17 @@
 <br>Con el siguiente ejemplo indicamos el tamaño de cada una de nuestras filas, en este caso solo definimos la altura para la primera (100px) y segunda (200px) fila. <br>
 > **Ejemplo:** `grid-template-rows: 100px 200px;`
 
->**grid-template:** Podemos definir filas y columnas en la misma linea.
+> **grid-template:** Podemos definir filas y columnas en la misma linea.
 <br>**Ejemplo:** `grid-template: 100px 200px / 30% 50% 20%;`
+
+> **grid-column-gap:** Permite definir el espacio entre columnas.
+<br>**Ejemplo:** `grid-column-gap: 20px;`
+
+> **grid-row-gap:** Permite definir el espacio entre filas.
+<br>**Ejemplo:** `grid-row-gap: 20px;`
+
+> **grid-gap:** Permite definir el espacio entre filas y columnas en una misma linea.
+<br>**Ejemplo:** `grid-gap: 30px 10px;`
 
 ### Links de Interes ###
 

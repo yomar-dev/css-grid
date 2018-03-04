@@ -1,0 +1,39 @@
+body{
+	font-family: Arial;
+}
+
+.container{
+	display: grid;
+	grid-template: 300px 100px 100px / 50% 200px 100px;
+	/*Definir espacio entre columnas*/
+	grid-column-gap: 20px;
+	/*Definir espacio entre filas*/
+	grid-row-gap: 20px;
+	/*Sintaxis resumida*/
+	grid-gap: 30px 10px;
+}
+
+.item{
+	background: teal;
+	border: 1px solid tomato;
+	color: #fff;
+	padding: .5em;
+	text-align: center;
+}
+
+/*Seleccionar el elemento item número 4, es decir el cuarto.*/
+.item:nth-of-type(4){
+	background: blue;
+	/*
+		display: subgrid;
+
+		Esta propiedad aún no esta disponible, pero lo que hace básicamente es heredar la configuración del padre, es decir, heredaria lo siguiente: grid-template: 300px 100px 100px / 50% 200px 100px;
+	 */
+	display: grid;
+	grid-template: 50px 50px 50px / 200px 200px 200px;
+	overflow: auto;
+}
+
+.item .item{
+	background: gold;
+}
