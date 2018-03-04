@@ -42,7 +42,8 @@
 > **grid-template-areas:** Especifica nombres para cada una de las grid areas. <br>
 > **grid-column-start:** Definimos en que linea empieza. <br>
 > **grid-column-end:** Definimos en que linea termina. <br>
-> **grid-column:** Definimos en que linea empieza y donde termina.
+> **grid-column:** Definimos en que linea de las columnas empieza y donde termina. <br>
+> **grid-row:** Definimos en que linea de las filas empieza y donde termina.
 
 ### Links de Interes ###
 
