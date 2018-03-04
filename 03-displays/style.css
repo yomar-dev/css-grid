@@ -4,7 +4,7 @@ body{
 
 .container{
 	display: grid;
-	grid-template: 100px 200px / 15% 50% 15%;
+	grid-template: 300px 100px 100px / 50% 200px 100px;
 }
 
 .item{
@@ -13,4 +13,21 @@ body{
 	color: #fff;
 	padding: .5em;
 	text-align: center;
+}
+
+/*Seleccionar el elemento item número 4, es decir el cuarto.*/
+.item:nth-of-type(4){
+	background: blue;
+	/*
+		display: subgrid;
+
+		Esta propiedad aún no esta disponible, pero lo que hace básicamente es heredar la configuración del padre, es decir, heredaria lo siguiente: grid-template: 300px 100px 100px / 50% 200px 100px;
+	 */
+	display: grid;
+	grid-template: 50px 50px 50px / 200px 200px 200px;
+	overflow: auto;
+}
+
+.item .item{
+	background: gold;
 }
