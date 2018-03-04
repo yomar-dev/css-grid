@@ -31,3 +31,9 @@
 [Complete Guide to Grid - CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 [CSS Grid Layout Module Level 1 - W3C](https://www.w3.org/TR/css-grid-1/)
+
+[CSS Grid Tutorial](https://www.quackit.com/css/grid/tutorial/)
+
+[Explicit vs Implicit Grid](https://www.quackit.com/css/grid/tutorial/explicit_vs_implicit_grid.cfm)
+
+[CSS Grid Examples](https://www.quackit.com/css/grid/examples/)
