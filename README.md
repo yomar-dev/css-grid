@@ -19,26 +19,27 @@
 ## Propiedades ##
 
 > **grid-template-columns:** Define el número de columnas en un grid layout así como el tamaño de cada columna. 
-<br>Con el siguiente ejemplo creamos 3 columnas de 200px de ancho cada una, cabe destacar que podemos asignar cualquier tamaño a cualquiera de las columnas y utilizar cualquier unidad de medida.
-
-> **Ejemplo:** *grid-template-columns: 200px 200px 200px;* 
+<br>Con el siguiente ejemplo creamos 3 columnas de 200px de ancho cada una, cabe destacar que podemos asignar cualquier tamaño a cualquiera de las columnas y utilizar cualquier unidad de medida. <br>
+> **Ejemplo:** `grid-template-columns: 200px 200px 200px;` 
 
 
 > **grid-template-rows:** Define el nombre de las líneas y las funciones de tamaño de línea de grid rows.
-<br>Con el siguiente ejemplo indicamos el tamaño de cada una de nuestras filas, en este caso solo definimos la altura para la primera (100px) y segunda (200px) fila.
+<br>Con el siguiente ejemplo indicamos el tamaño de cada una de nuestras filas, en este caso solo definimos la altura para la primera (100px) y segunda (200px) fila. <br>
+> **Ejemplo:** `grid-template-rows: 100px 200px;`
 
-> **Ejemplo:** *grid-template-rows: 100px 200px;*
+>**grid-template:** Podemos definir filas y columnas en la misma linea.
+<br>**Ejemplo:** `grid-template: 100px 200px / 30% 50% 20%;`
 
 ### Links de Interes ###
 
 [CSS Grid Layout - MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout)
-
+<br>
 [Complete Guide to Grid - CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
-
+<br>
 [CSS Grid Layout Module Level 1 - W3C](https://www.w3.org/TR/css-grid-1/)
-
+<br>
 [CSS Grid Tutorial](https://www.quackit.com/css/grid/tutorial/)
-
+<br>
 [Explicit vs Implicit Grid](https://www.quackit.com/css/grid/tutorial/explicit_vs_implicit_grid.cfm)
-
+<br>
 [CSS Grid Examples](https://www.quackit.com/css/grid/examples/)

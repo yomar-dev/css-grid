@@ -5,12 +5,17 @@ body{
 .container{
 	/*Indicamos que va a ser nuestro Grid Container*/
 	display: grid;
+
 	/*Indicamos que nuestro contenedor se convierta en 3 columnas y definimos el ancho de cada columna*/
-	grid-template-columns: 30% 50% 20%;
+	/*grid-template-columns: 30% 50% 20%;*/
+	
 	/*
 		Indicamos el tamaño de cada una de nuestras filas, en este caso solo definimos la altura para la primera (100px) y segunda (200px) fila
 	 */
-	grid-template-rows: 100px 200px;
+	/*grid-template-rows: 100px 200px;*/
+	
+	/*grid-template: filas / columnas;*/
+	grid-template: 100px 200px / 15% 50% 15%;
 }
 
 .item{
