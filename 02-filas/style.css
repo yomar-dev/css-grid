@@ -1,0 +1,18 @@
+body{
+	font-family: Arial;
+}
+
+.container{
+	/*Indicamos que va a ser nuestro Grid Container*/
+	display: grid;
+	/*Indicamos que nuestro contenedor se convierta en 3 columnas y definimos el ancho de cada columna*/
+	grid-template-columns: 30% 50% 20%;
+}
+
+.item{
+	background: teal;
+	border: 1px solid tomato;
+	color: #fff;
+	padding: .5em;
+	text-align: center;
+}
