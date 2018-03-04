@@ -38,9 +38,11 @@
 
 > **fr:** Unidad de medida que representa una fracción. <br>
 > **repeat(number, value):** Permite repetir una valor un determinado número de veces. <br>
-> **minmax(min, max):** Permite definir un mínimo y máximo
-
-> **grid-template-areas:** Especifica nombres para cada una de las grid areas.
+> **minmax(min, max):** Permite definir un mínimo y máximo. <br>
+> **grid-template-areas:** Especifica nombres para cada una de las grid areas. <br>
+> **grid-column-start:** Definimos en que linea empieza. <br>
+> **grid-column-end:** Definimos en que linea termina. <br>
+> **grid-column:** Definimos en que linea empieza y donde termina.
 
 ### Links de Interes ###
 

@@ -1,0 +1,48 @@
+body{
+	font-family: Arial;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-gap: 10px;
+	height: 100vh;
+}
+
+.item{
+	background: teal;
+	border: 1px solid tomato;
+	color: #fff;
+	padding: .5em;
+	text-align: center;
+}
+
+.item:nth-of-type(1){
+	background: blue;
+	/*Definimos en que linea empieza*/
+	grid-column-start: 1;
+	/*Definimos en que linea termina*/
+	grid-column-end: 3;
+}
+
+.item:nth-of-type(8){
+	background: blue;
+	/*
+		Definimos en que linea empieza y donde termina
+		grid-column: 2 / 4;
+	*/
+
+	/*Estamos indicando que empieze en la linea 1 y ocupe 2 fracciones*/
+	grid-column: 1 / span 2;
+}
+
+.item:nth-of-type(7){
+	/*Definimos en que linea empieza y donde termina*/
+	grid-column: 2 / 4;
+}
+
+.item:nth-of-type(3){
+	/*Estamos indicando que empieze en la linea 1 y ocupe todo el espacio de la fila*/
+	grid-column: 1 / -1;
+}
