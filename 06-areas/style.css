@@ -1,0 +1,38 @@
+body{
+	font-family: Arial;
+}
+
+.container{
+	display: grid;
+	/*grid-template: repeat(3, 1fr) / repeat(2, 1fr);*/
+	grid-template: 100px 1fr 100px / 250px 1fr;
+	grid-gap: 10px;
+	grid-template-areas: 	"header header"
+							"sidebar content" 
+							"footer footer";
+	height: 100vh;
+}
+
+.item{
+	background: teal;
+	border: 1px solid tomato;
+	color: #fff;
+	padding: .5em;
+	text-align: center;
+}
+
+.header{
+	grid-area: header;
+}
+
+.sidebar{
+	grid-area: sidebar;
+}
+
+.content{
+	grid-area: content;
+}
+
+.footer{
+	grid-area: footer;
+}

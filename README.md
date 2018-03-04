@@ -40,6 +40,8 @@
 > **repeat(number, value):** Permite repetir una valor un determinado número de veces. <br>
 > **minmax(min, max):** Permite definir un mínimo y máximo
 
+> **grid-template-areas:** Especifica nombres para cada una de las grid areas.
+
 ### Links de Interes ###
 
 [CSS Grid Layout - MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout)
