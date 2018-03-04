@@ -1,0 +1,44 @@
+body{
+	font-family: Arial;
+}
+
+.container{
+	display: grid;
+	/*
+		1fr = Porción
+		En este caso le estamos indicando que queremos que todas la columnas ocupen una fracción, es decir, cada una va a ocupar 33,333%.
+		grid-template: 300px 100px 100px / 1fr 1fr 1fr;
+	 
+	 	repeat: Permite repetir un valor un determinado número de veces.
+	 	En este caso estoy creado 4 columnas de igual tamaño.
+		grid-template: 300px 100px 100px / repeat(4, 1fr);
+
+		Estoy indicando que voy a tener cuatro columnas que van a ocupar una fracción cada una pero que su ancho minimo va a ser de 200px.
+		grid-template: 300px 100px 100px / repeat(4, minmax(200px, 1fr));
+	 */
+	
+	/*
+		Estoy indicando que la primera columna primera columna va a tener un ancho de una fracción al igual que todas pero que su ancho minimo va a ser de 200px, es decirz, que por muy pequeña que sea la pantalla siempre va a ocupar 200px
+	 */
+	grid-template: 300px 100px 100px / minmax(200px, 1fr) 1fr 1fr 1fr;
+	grid-gap: 30px 20px;
+}
+
+.item{
+	background: teal;
+	border: 1px solid tomato;
+	color: #fff;
+	padding: .5em;
+	text-align: center;
+}
+
+.item:nth-of-type(4){
+	background: blue;
+	display: grid;
+	grid-template: 50px 50px 50px / 200px 200px 200px;
+	overflow: auto;
+}
+
+.item .item{
+	background: gold;
+}
