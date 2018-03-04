@@ -43,7 +43,10 @@
 > **grid-column-start:** Definimos en que linea empieza. <br>
 > **grid-column-end:** Definimos en que linea termina. <br>
 > **grid-column:** Definimos en que linea de las columnas empieza y donde termina. <br>
-> **grid-row:** Definimos en que linea de las filas empieza y donde termina.
+> **grid-row:** Definimos en que linea de las filas empieza y donde termina. <br>
+> **grid-auto-flow:** Permite cambiar el flujo automatico del grid, por defecto su valor es `row` pero podemos cambiarlo a `column`. <br>
+> **grid-auto-columns:** Permite un valor por defecto a las columnas que no han sido asignadas. *Ejemplo:* `grid-auto-columns: 200px 200px 200px 200px;`<br>
+> **grid-auto-rows:** Permite un valor por defecto a las filas que no han sido asignadas. *Ejemplo:* `grid-auto-rows: 50px 100px;`<br>
 
 ### Links de Interes ###
 
