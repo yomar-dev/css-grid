@@ -1,0 +1,16 @@
+body{
+	font-family: Arial;
+}
+
+.container{
+	display: grid;
+	grid-template: 100px 200px / 15% 50% 15%;
+}
+
+.item{
+	background: teal;
+	border: 1px solid tomato;
+	color: #fff;
+	padding: .5em;
+	text-align: center;
+}
